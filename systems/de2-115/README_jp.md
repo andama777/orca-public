@@ -27,7 +27,6 @@ QSYS GUIを開いてください。  変更内容を保存した後、`make`を�
 または`make gui-quartus` を実行してQSYSシステムを生成し、Quartusを開きます。
 を実行し、Quartusを開いてください。
 
-
 ## プログラミング
 
 Makefileにはpgmとrunターゲットが含まれています。  make pgm`はビットストリームをボードにダウンロードします。

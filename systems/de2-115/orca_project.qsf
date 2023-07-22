@@ -58,7 +58,7 @@ set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
 set_global_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION OFF
 set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS ON
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_location_assignment PIN_D2 -to AUD_ADCDAT
@@ -567,7 +567,7 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to TOUCH_INT_n
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to TOUCH_I2C_SCL
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to TOUCH_I2C_SDA
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to TOUCH_INT_n
-set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Standard Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
 
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 set_global_assignment -name VHDL_FILE ../../ip/orca/hdl/vcp_handler.vhd

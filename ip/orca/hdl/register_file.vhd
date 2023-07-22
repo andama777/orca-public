@@ -86,7 +86,6 @@ begin
       end if;
     end process;
 
-
     --read during write logic
     rs1_data <= wb_data_latched when read_during_write1 = '1' else out1;
     rs2_data <= wb_data_latched when read_during_write2 = '1' else out2;
